@@ -1,0 +1,37 @@
+.hamburger-button {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: none;
+    background-color: #fb2056;
+
+}
+
+.hamburger-button:hover {
+    background-color: var(--button-background-color-hover);
+}
+
+.hamburger-icon {
+    fill: white;
+    transition: transform 0.3s ease;
+}
+
+
+
+@media screen and (max-width: 950px) {
+    header nav ul {
+        position: absolute;
+        top: 70px;
+
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        display: none;
+        width: 200px;
+
+    }
+
+    .hamburger-button {
+        display: block;
+    }
+}

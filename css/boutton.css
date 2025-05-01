@@ -1,0 +1,16 @@
+.button {
+    background-color: #fb2056;
+    border-color: #fb2056;
+    color: white;
+    border: none;
+    border-radius: 20PX;
+    padding-left: 28px;
+    padding-right: 29px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    margin: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}

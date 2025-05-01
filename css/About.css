@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 79vh;
+    background-image: linear-gradient(rgba(19, 19, 19, 0.65), rgba(19, 19, 19, 0.65)),
+        url(/image/about-bg-5.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ 
+ 
+ .ourmission-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap :20px
+ }
+
+.ourmission-1-text{
+    display: flex;
+}
+
+
+ .ourmission-1 img{
+    width: 20%;
+ }
+.ourmission-2-text{
+    display: flex;
+    
+}
+ 
+
+ 
+
+.ourmission-2{
+    
+    width: 50%;
+}
+
+.ourmission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+   
+    
