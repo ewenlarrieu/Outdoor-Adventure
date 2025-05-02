@@ -1,0 +1,108 @@
+@media screen and (max-width:980px) {
+    .Article-2-text p{ 
+       font-size: 14px ;
+       text-align: center;
+       margin-left: 0%;
+       align-content: center;
+    }
+ }
+ 
+ @media screen and (max-width:363px) {
+    .Article-2-text h2{
+       font-size: 25px;
+       text-align: center;
+       margin-left: 0%;
+    }
+    
+ }
+ 
+ 
+ @media screen and (max-width: 1095px) {
+    .Article-3 p {
+       font-size: 15px;
+       width: 250px;
+       height: 50%;
+    }
+    .Article-3 h2{
+       font-size:25px ;
+    }
+ 
+ }
+ 
+ @media screen and (max-width: 420px) {
+    .Article-3{
+       flex-direction: column;
+       align-items: center;
+    }
+    .Article-3-images  {
+       flex-direction: column;
+       align-items: center;
+      
+    }
+    .Article-3-images img {
+       flex-direction: column;
+       width: 100%;
+       max-width: 300px;
+    }
+    .Article-3-text{
+       text-align: center;
+       align-items:center ;
+    }
+ }
+
+
+ @media screen and (max-width: 856px) {
+   .Article-3 p {
+      font-size: 10px;
+      width: 175px;
+   }
+
+}
+ 
+ @media screen and (max-width: 595px) {
+    .ma-classe1 {
+       text-align: center;
+       font-size: 24px
+    }
+ }
+ @media screen and (max-width: 912px) {
+   header section p {
+      font-size: 20px;
+      width: 80%;
+   }
+
+   header section h1 {
+      font-size: 40px;
+      width: 80%;
+   }
+
+   header section .button {
+      font-size: 16px;
+      padding: 12px 24px;
+   }
+
+   header section {
+      gap: 30px;
+      padding: 30px 15px;
+   }
+}
+
+@media screen and (max-width: 100px) {
+   header section p {
+      font-size: 30px;
+   }
+
+   header section h1 {
+      font-size: 50px;
+   }
+
+   header section .button {
+      font-size: 18px;
+      padding: 12px 24px;
+   }
+
+   header section {
+      gap: 30px;
+      padding: 30px 15px;
+   }
+}
