@@ -205,13 +205,20 @@ header h1 {
 }
 
 
-footer {
-   background-color: black;
-   color: white;
-   align-items: center;
-   text-align: center;
-   margin-top: 60px;
-   padding: 3%;
 
+@media screen and (max-width:980px) {
+   .Article-2-text p{ 
+      font-size: 14px ;
+   }
+}
+
+@media screen and (max-width: 1095px) {
+   .Article-3 p {
+      font-size: 15px;
+      width: 250px;
+   }
+   .Article-3 h2{
+      font-size:25px ;
+   }
 
 }

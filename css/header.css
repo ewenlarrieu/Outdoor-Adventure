@@ -94,23 +94,10 @@ header nav img {
 }
 
 
-@media screen and (max-width:980px) {
-   .Article-2-text p{ 
-      font-size: 14px ;
-   }
-   
-}
 
-@media screen and (max-width: 1095px) {
-      .Article-3 p {
-         font-size: 15px;
-         width: 250px;
-      }
-      .Article-3 h2{
-         font-size:25px ;
-      }
-   
-}
+
+
+
 
 @media screen and (max-width: 856px) {
    .Article-3 p {
