@@ -1,0 +1,7 @@
+.underline {
+    display: block;
+    height: 4px;
+    width: 60px; 
+    background-color: #fb2056; 
+    margin-top: 3px;
+}
